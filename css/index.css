@@ -104,7 +104,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +143,68 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* ----------------my code---------------- */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+nav {
+    display: flex;
+    margin-top: 25px;
+    margin-left: 0;
+}
+
+header nav a{
+    margin-left: 70px;
+    text-decoration: none;
+    color: grey;
+}
+
+.jumbo {
+    margin: 30px 0;
+}
+
+.boxes :nth-child(1){
+    background: teal;
+}
+
+.boxes :nth-child(2){
+    background: gold;
+}
+
+.boxes :nth-child(3){
+    background: cadetblue;
+}
+
+.boxes :nth-child(4){
+    background: coral;
+}
+
+.boxes :nth-child(5){
+    background: crimson;
+}
+
+.boxes :nth-child(6){
+    background: forestgreen;
+}
+
+.boxes :nth-child(7){
+    background: darkorchid;
+}
+
+.boxes :nth-child(8){
+    background: hotpink;
+}
+
+.boxes :nth-child(9){
+    background: indigo;
+}
+
+.boxes :nth-child(10){
+    background: dodgerblue;
 }
